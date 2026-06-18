@@ -1,0 +1,91 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.fleet/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.ipynb_checkpoints/
+.tox/
+.nox/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# ROS2 / colcon
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+install/
+log/
+.colcon/
+.ros/
+rosbag2_*/
+*.bag
+*.db3
+
+# ML experiment artifacts
+outputs/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+events.out.tfevents*
+
+# Data and model binaries
+data/raw/
+data/interim/
+data/processed/
+data/external/
+data/captures/
+datasets/
+models/checkpoints/
+models/exports/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.plan
+*.trt
+*.uff
+*.etlt
+*.calib
+calibration.cache
+*.safetensors
+
+# Local secrets and machine-specific configs
+*.local.yaml
+*.local.yml
+*.pem
+*.key
+
+# Temporary files
+tmp/
+temp/
+*.log
